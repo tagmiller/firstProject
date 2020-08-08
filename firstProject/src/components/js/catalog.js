@@ -37,7 +37,7 @@ let Catalog = {
                       </div>                 
             `
         })
-        this.container.innerHTML
+        this.container.innerHTML = html;
     }
 }
 
