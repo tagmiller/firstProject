@@ -267,85 +267,8 @@
     <section class="product-box center">
       <div id="product_boxes"></div>
 
-      <!--  <div class="product">
-          <a href="#"><img class="product__img" src="../img/fi-1.png" alt="photo product"/></a>
-          <div class="product__content">
-            <a href="#" class="product__name">Mango People T-shirt</a>
-            <p class="product__price">$52.00</p>
-          </div>
-          <a href="#" class="product__add">Add to Cart</a>
-        </div>
-        <div class="product">
-          <a href="#"
-            ><img class="product__img" src="../img/fi-2.png" alt="photo product"
-          /></a>
-          <div class="product__content">
-            <a href="#" class="product__name">Mango People T-shirt</a>
-            <p class="product__price">$52.00</p>
-          </div>
-          <a href="#" class="product__add">Add to Cart</a>
-        </div>
-        <div class="product">
-          <a href="#"
-            ><img class="product__img" src="../img/fi-5.png" alt="photo product"
-          /></a>
-          <div class="product__content">
-            <a href="#" class="product__name">Mango People T-shirt</a>
-            <p class="product__price">$52.00</p>
-          </div>
-          <a href="#" class="product__add">Add to Cart</a>
-        </div>
-        <div class="product">
-          <a href="#"
-            ><img class="product__img" src="../img/fi-6.png" alt="photo product"
-          /></a>
-          <div class="product__content">
-            <a href="#" class="product__name">Mango People T-shirt</a>
-            <p class="product__price">$52.00</p>
-          </div>
-          <a href="#" class="product__add">Add to Cart</a>
-        </div>
-        <div class="product">
-          <a href="#"
-            ><img class="product__img" src="../img/fi-3.png" alt="photo product"
-          /></a>
-          <div class="product__content">
-            <a href="#" class="product__name">Mango People T-shirt</a>
-            <p class="product__price">$52.00</p>
-          </div>
-          <a href="#" class="product__add">Add to Cart</a>
-        </div>
-        <div class="product">
-          <a href="#"
-            ><img class="product__img" src="../img/fi-4.png" alt="photo product"
-          /></a>
-          <div class="product__content">
-            <a href="#" class="product__name">Mango People T-shirt</a>
-            <p class="product__price">$52.00</p>
-          </div>
-          <a href="#" class="product__add">Add to Cart</a>
-        </div>
-        <div class="product">
-          <a href="#"
-            ><img class="product__img" src="../img/fi-7.png" alt="photo product"
-          /></a>
-          <div class="product__content">
-            <a href="#" class="product__name">Mango People T-shirt</a>
-            <p class="product__price">$52.00</p>
-          </div>
-          <a href="#" class="product__add">Add to Cart</a>
-        </div>
-        <div class="product">
-          <a href="#"
-            ><img class="product__img" src="../img/fi-8.png" alt="photo product"
-          /></a>
-          <div class="product__content">
-            <a href="#" class="product__name">Mango People T-shirt</a>
-            <p class="product__price">$52.00</p>
-          </div>
-          <a href="#" class="product__add">Add to Cart</a>
-        </div> !-->
-      </div>
+
+
     </section>
     <section class="browse_all_pr center">
       <a class="button_2" href="#">Browse All Product</a>
@@ -471,7 +394,19 @@
 
     </footer>
 
-    <script src="../src/components/js/catalog.js"></script>
+    <script src="../src/components/catalog.js"></script>
 
+    <script>
+
+    let imgBaseUrl = 'https://raw.githubusercontent.com/tagmiller/static/master/img/js-shop/'
+    const brand = [
+    "Mango People T-shirt", "Mango People T-shirt", "Mango People T-shirt", "Mango People T-shirt",
+    "Mango People T-shirt", "Mango People T-shirt", "Mango People T-shirt", "Mango People T-shirt"];
+
+    const price = [
+    '52.00', '52.00', '52.00', '52.00', '52.00', '52.00', '52.00', '52.00'];
+    Catalog.init();
+
+    </script>
   </body>
 </html>
